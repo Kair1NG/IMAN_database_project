@@ -20,10 +20,10 @@ def Main_menu():
         case 0:
             sys.exit()
         case 1:
-            subprocess.run(["python", "student_access.py"])
+            subprocess.run(["python", "accessories/student_access.py"])
             return
         case 2:
-            subprocess.run(["python", "admin_access.py"])
+            subprocess.run(["python", "accessories/admin_access.py"])
             return
         case _:
             print("Error | Invalid Choice")
